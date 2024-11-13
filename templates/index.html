@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Injection Project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">User Management (SQLID)</h2>
+        <p class="text-center">{{ result }}</p>
+
+        {% if session['user_id'] %}
+            <!-- Search Section (visible when logged in) -->
+            <h4>Search Users</h4>
+            <form method="post">
+                <div class="form-group">
+                    <label for="search_username">Search Users by Username:</label>
+                    <input type="text" class="form-control" id="search_username" name="search_username" placeholder="Enter username">
+                </div>
+                <input type="hidden" name="action" value="search">
+                <button type="submit" class="btn btn-primary btn-block">Search</button>
+            </form>
+
+            <hr>
+
+            <!-- Logout Section -->
+            <form method="post">
+                <input type="hidden" name="action" value="logout">
+                <button type="submit" class="btn btn-danger btn-block">Logout</button>
+            </form>
+
+        {% else %}
+            <!-- Signup Section (visible when logged out) -->
+            <h4>Signup</h4>
+            <form method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter password">
+                </div>
+                <input type="hidden" name="action" value="signup">
+                <button type="submit" class="btn btn-success btn-block">Signup</button>
+            </form>
+
+            <hr>
+
+            <!-- Login Section -->
+            <h4>Login</h4>
+            <form method="post">
+                <div class="form-group">
+                    <label for="email_login">Email:</label>
+                    <input type="email" class="form-control" id="email_login" name="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="password_login">Password:</label>
+                    <input type="password" class="form-control" id="password_login" name="password" placeholder="Enter password">
+                </div>
+                <input type="hidden" name="action" value="login">
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        {% endif %}
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

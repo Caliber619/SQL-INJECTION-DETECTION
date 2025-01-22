@@ -255,3 +255,77 @@ INFO:werkzeug:127.0.0.1 - - [10/Nov/2024 14:01:27] "POST / HTTP/1.1" 200 -
 [2024-11-11 21:46:09] INFO - 127.0.0.1 - - [11/Nov/2024 21:46:09] "POST / HTTP/1.1" 200 -
 [2024-11-11 21:46:39] INFO - User logged out from127.0.0.1
 [2024-11-11 21:46:39] INFO - 127.0.0.1 - - [11/Nov/2024 21:46:39] "POST / HTTP/1.1" 200 -
+[2024-11-15 08:50:10] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-15 08:50:10] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-15 08:50:10] INFO -  * Restarting with stat
+[2024-11-15 08:50:13] WARNING -  * Debugger is active!
+[2024-11-15 08:50:13] INFO -  * Debugger PIN: 317-069-869
+[2024-11-15 08:50:29] INFO - 127.0.0.1 - - [15/Nov/2024 08:50:29] "GET / HTTP/1.1" 200 -
+[2024-11-15 08:50:31] INFO - 127.0.0.1 - - [15/Nov/2024 08:50:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-11-15 12:55:53] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-15 12:55:53] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-15 12:55:53] INFO -  * Restarting with stat
+[2024-11-15 12:55:57] WARNING -  * Debugger is active!
+[2024-11-15 12:55:57] INFO -  * Debugger PIN: 317-069-869
+[2024-11-15 12:56:12] INFO - 127.0.0.1 - - [15/Nov/2024 12:56:12] "GET / HTTP/1.1" 200 -
+[2024-11-15 12:56:13] INFO - 127.0.0.1 - - [15/Nov/2024 12:56:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-11-15 12:56:34] INFO - New user registered: ykshitij123@gmail.com from 127.0.0.1
+[2024-11-15 12:56:34] INFO - 127.0.0.1 - - [15/Nov/2024 12:56:34] "POST / HTTP/1.1" 200 -
+[2024-11-15 12:56:58] INFO - Successful login for ykshitij123@gmail.com from 127.0.0.1
+[2024-11-15 12:56:58] INFO - 127.0.0.1 - - [15/Nov/2024 12:56:58] "POST / HTTP/1.1" 200 -
+[2024-11-15 12:57:18] INFO - 127.0.0.1 - - [15/Nov/2024 12:57:18] "POST / HTTP/1.1" 200 -
+[2024-11-15 12:58:57] INFO - User logged out from127.0.0.1
+[2024-11-15 12:58:57] INFO - 127.0.0.1 - - [15/Nov/2024 12:58:57] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:08:05] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-15 13:08:05] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-15 13:08:05] INFO -  * Restarting with stat
+[2024-11-15 13:08:11] WARNING -  * Debugger is active!
+[2024-11-15 13:08:11] INFO -  * Debugger PIN: 317-069-869
+[2024-11-15 13:08:16] INFO - 127.0.0.1 - - [15/Nov/2024 13:08:16] "GET / HTTP/1.1" 200 -
+[2024-11-15 13:08:17] INFO - 127.0.0.1 - - [15/Nov/2024 13:08:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-11-15 13:08:48] INFO - New user registered: varshajhaver.29@gmail.com from 127.0.0.1
+[2024-11-15 13:08:48] INFO - 127.0.0.1 - - [15/Nov/2024 13:08:48] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:09:07] INFO - Successful login for varshajhaver.29@gmail.com from 127.0.0.1
+[2024-11-15 13:09:07] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:07] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:09:13] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:13] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:09:21] INFO - User search successful for query '21MIS0164' from 127.0.0.1
+[2024-11-15 13:09:21] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:21] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:09:27] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:27] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:09:35] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:35] "GET / HTTP/1.1" 200 -
+[2024-11-15 13:09:48] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:48] "GET / HTTP/1.1" 200 -
+[2024-11-15 13:09:49] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-11-15 13:09:54] INFO - 127.0.0.1 - - [15/Nov/2024 13:09:54] "GET / HTTP/1.1" 200 -
+[2024-11-15 13:10:13] INFO - User logged out from127.0.0.1
+[2024-11-15 13:10:13] INFO - 127.0.0.1 - - [15/Nov/2024 13:10:13] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:17:34] INFO - Successful login for varshajhaver.29@gmail.com from 127.0.0.1
+[2024-11-15 13:17:34] INFO - 127.0.0.1 - - [15/Nov/2024 13:17:34] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:17:59] INFO - User search successful for query '21MIS0164' from 127.0.0.1
+[2024-11-15 13:17:59] INFO - 127.0.0.1 - - [15/Nov/2024 13:17:59] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:18:55] INFO - User logged out from127.0.0.1
+[2024-11-15 13:18:55] INFO - 127.0.0.1 - - [15/Nov/2024 13:18:55] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:19:06] INFO - Successful login for varshajhaver.29@gmail.com from 127.0.0.1
+[2024-11-15 13:19:06] INFO - 127.0.0.1 - - [15/Nov/2024 13:19:06] "POST / HTTP/1.1" 200 -
+[2024-11-15 13:20:13] INFO - 127.0.0.1 - - [15/Nov/2024 13:20:13] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:17:19] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-11-15 16:17:19] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-15 16:17:19] INFO -  * Restarting with stat
+[2024-11-15 16:17:25] WARNING -  * Debugger is active!
+[2024-11-15 16:17:25] INFO -  * Debugger PIN: 317-069-869
+[2024-11-15 16:17:28] INFO - 127.0.0.1 - - [15/Nov/2024 16:17:28] "GET / HTTP/1.1" 200 -
+[2024-11-15 16:17:29] INFO - 127.0.0.1 - - [15/Nov/2024 16:17:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-11-15 16:17:50] INFO - New user registered: varshajhaver.29@gmail.com from 127.0.0.1
+[2024-11-15 16:17:50] INFO - 127.0.0.1 - - [15/Nov/2024 16:17:50] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:18:07] INFO - Successful login for varshajhaver.29@gmail.com from 127.0.0.1
+[2024-11-15 16:18:07] INFO - 127.0.0.1 - - [15/Nov/2024 16:18:07] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:18:12] INFO - User search successful for query '21MIS0164' from 127.0.0.1
+[2024-11-15 16:18:12] INFO - 127.0.0.1 - - [15/Nov/2024 16:18:12] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:18:29] INFO - 127.0.0.1 - - [15/Nov/2024 16:18:29] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:18:38] INFO - 127.0.0.1 - - [15/Nov/2024 16:18:38] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:18:52] INFO - User logged out from127.0.0.1
+[2024-11-15 16:18:52] INFO - 127.0.0.1 - - [15/Nov/2024 16:18:52] "POST / HTTP/1.1" 200 -
+[2024-11-15 16:19:34] WARNING - Failed login attempt for varshajhaver.29@ac.in from 127.0.0.1
+[2024-11-15 16:19:34] INFO - 127.0.0.1 - - [15/Nov/2024 16:19:34] "POST / HTTP/1.1" 200 -
